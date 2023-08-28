@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+        <img
+          class="imagesize"
+          src="https://res.cloudinary.com/dgk7b7mkt/image/upload/v1687593803/shoes-store-logo-icon-vector-260nw-1718722330_1_2_qlurv9.png"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link size" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size" href="#productSection">Products</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link size" href="#cat">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size" href="#new">New Arrivals</a>
+          </li>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link size" href="#contact">Contact us</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="ml-auto">
+        <p>
+          <a href="#cart">
+            <img
+              class="imagesize1"
+              src="https://res.cloudinary.com/dgk7b7mkt/image/upload/v1687593078/shoes-shop-logo-vector-store-260nw-1718721763_1_txtzcp.png"
+            />
+          </a>
+        </p>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://cms-static.asics.com/media-libraries/88938/file.ob.jpg?20230616120553"
+            class="d-block w-100"
+            alt="Image 1"
+          />
